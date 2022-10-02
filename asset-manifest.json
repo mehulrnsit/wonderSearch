@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/wonderSearch/static/css/main.56fa124b.css",
+    "main.js": "/wonderSearch/static/js/main.5c626e3d.js",
+    "static/media/svg.svg": "/wonderSearch/static/media/svg.108f81b56869a68445d120f73ddfddbb.svg",
+    "index.html": "/wonderSearch/index.html",
+    "main.56fa124b.css.map": "/wonderSearch/static/css/main.56fa124b.css.map",
+    "main.5c626e3d.js.map": "/wonderSearch/static/js/main.5c626e3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56fa124b.css",
+    "static/js/main.5c626e3d.js"
+  ]
+}
