@@ -23,7 +23,7 @@ const Home = () => {
             method: 'post',
             url: 'https://api.openai.com/v1/completions',
             headers: {
-                'Authorization': 'Bearer ' + process.env.REACT_APP_SECRET_KEY,
+                'Authorization': 'Bearer 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' ,
                 'Content-Type': 'application/json'
             },
             data: data
@@ -59,9 +59,9 @@ const Home = () => {
                     </div>
                     <div className="col-md-6 result-box">
                         <p>Your result will show up here.</p>
-                        <pre className="text-area">
+                        <p className="text-area">
                             {searchText.length !== 0 ? <p>{resultText}</p> : <></>}
-                        </pre>
+                        </p>
                     </div>
                 </div>
             </div>
