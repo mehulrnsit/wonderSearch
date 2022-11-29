@@ -6,7 +6,7 @@ import svg from "./svg.svg"
 const LandingPage = () => {
     let navigate = useNavigate();
     const redirect = () => {
-        navigate("/home");
+        navigate("/wonderSearch/home");
     }
     return (
         <>
