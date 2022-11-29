@@ -12,7 +12,7 @@ exports.handler = async function (event, context) {
     try {
         const { searchText } = event.queryStringParameters;
         var myHeaders = new Headers();
-        myHeaders.append("Authorization", "Bearer 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");
+        myHeaders.append("Authorization", "Bearer " + process.env.REACT_APP_SECRET_KEY);
         myHeaders.append("Content-Type", "application/json");
 
         var raw = JSON.stringify({
