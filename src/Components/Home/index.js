@@ -35,7 +35,10 @@ const Home = () => {
                 <div className="row">
                     <div className="col-md-6 col-sm-6 search-box">
                         <p>Ask wonderSearch any question that comes in your mind, You can even ask wonderaSearch to write an email, code for you.</p>
-                        <textarea placeholder="Ask wonderSearch Anything....." onChange={(e) => setSearchText(e.target.value)}></textarea>
+                        <textarea placeholder="Ask wonderSearch Anything....." onChange={(e) => {
+                            setSearchText(e.target.value)
+                            setResultText("");
+                            }}></textarea>
                         <button onClick={() => getResults()}>Get Result</button>
                     </div>
                     <div className="col-md-6 col-sm-6 result-box">
