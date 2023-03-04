@@ -20,7 +20,7 @@ const Home = () => {
             // console.log(typeof(JSON.parse(result)))
             setLoading(false)
         }).catch((error) => {
-            setResultText(JSON.stringify(error));
+            setResultText(error.message);
             setLoading(false);
         })
     }
